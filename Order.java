@@ -1,8 +1,5 @@
 /**
-Name: Joseph Roesch
-Date: 03/303/2019
-Course/Section: IT206.003
-Assignment 4
+
 Description:
 This program will allow a user to input an order and its details, print all all orders, print priority orders,
 and allow a user to search by storeName and print details about orders with that storeName. The program will
@@ -142,7 +139,7 @@ public class Order{
          }
       }
       if (!vali){
-         throw new IllegalArgumentException("Order Status must be either, “Pending Approval”, “In Processing”, “Ready for Shipment”, or “Shipped”.");
+         throw new IllegalArgumentException("Order Status must be either, â€œPending Approvalâ€, â€œIn Processingâ€, â€œReady for Shipmentâ€, or â€œShippedâ€.");
       }
       else {
          this.orderStatus = orderStatus;
