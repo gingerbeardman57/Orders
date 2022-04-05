@@ -1,8 +1,4 @@
 /**
-Name: Joseph Roesch
-Date: 03/303/2019
-Course/Section: IT206.003
-Assignment 4
 Description:
 This program will allow a user to input an order and its details, print all all orders, print priority orders,
 and allow a user to search by storeName and print details about orders with that storeName. The program will
@@ -15,7 +11,7 @@ inputs incorrect orderID, they will be prompted and brought back to the main sel
 'SOP-XXXXXX' where the X is a digit. If the user enters a correct orderID, then the user cannot exit the program until 
 they enter correct order details. The order details are storeName (cannot be blank and cannot be more than 48 characters), 
 contactName (cannot be blank and characters must be greater than 5 and less than 38 with one space seperating them), 
-orderCost (must be greater than 0), orderStatus (either, “Pending Approval”, “In Processing”, “Ready for Shipment”, or “Shipped”), 
+orderCost (must be greater than 0), orderStatus (either, â€œPending Approvalâ€, â€œIn Processingâ€, â€œReady for Shipmentâ€, or â€œShippedâ€), 
 and priority(either "yes" or "no"). With the three printing processes, the program will call the DDC to create the 
 string and then the program will print the string that is passed through. The program will track the number of orders by using a 
 static variable that counts the number
